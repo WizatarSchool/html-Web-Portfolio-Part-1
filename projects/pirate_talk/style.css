@@ -1,0 +1,54 @@
+thead {
+  background-color: #999999;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.heading {
+  border: 3px solid #941;
+}
+
+td {
+  border: 1px solid #222222;
+  font-family: "Georgia";
+  font-style: italic;
+}
+
+.row-decor1 {
+  background-color: #dddddd;
+}
+
+.row-decor2 {
+  background-color: #bbbbbb;
+}
+
+.row {
+  text-align: left;
+}
+
+.category-name {
+  text-align: right;
+  font-weight: bold;
+}
+
+.top {
+  text-align: center;
+  background-image: url("https://cdnb.artstation.com/p/assets/panos/images/006/300/685/large/andrii-shafetov-fin-3.jpg?1497520824");
+  
+}
+
+.main-body {
+  border: 2px solid gray;
+  background-color: #884400;
+}
+
+.title-text {
+  color: #FFFF00;
+  font-family: "serif";
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.subtitle-text {
+  color: #FFFF00;
+}

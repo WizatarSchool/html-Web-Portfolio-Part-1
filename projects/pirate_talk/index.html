@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Pirate Translator </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="top">
+      <br/><br/><br/><br/>
+      <h3 class="title-text">Land Lubber's Pirate Translator</h3>
+      <p class="subtitle-text">Simply click on the buttons to translate<br />
+    words and/or phrases from English to pirate talk.
+      <br/><br/><br/><br/><br/>
+    </div>
+    <hr />
+    <form name="PirateForm">
+    <!--I modified this code :)-->
+    <div class="main-body" item-width="500">
+      <table align="center">
+        <thead>
+          <td class="heading">Categories:</td>
+          <td class="heading">Options</td>
+        </thead>
+        <tr class="row-decor1 row">
+          <td class="category-name">Introduction</td>
+          <td><input type="button" value="hello"
+          onClick="document.PirateForm.Output.value += 'ahoy ';">
+          <input type="button" value="stranger"
+          onClick="document.PirateForm.Output.value += 'scurvy dog ';"></td>
+        </tr>
+        <!-- Add all your code below this line -->
+        <tr class="row-decor2 row">
+          <td class="category-name">Greetings</td>
+          <td><input type="button" value="pardon me"
+          onClick="document.PirateForm.Output.value += 'avast ';">
+          <input type="button" value="excuse me"
+          onClick="document.PirateForm.Output.value += 'arrr ';"></td>
+        </tr>
+        <tr class="row-decor1 row">
+          <td class="category-name">People</td>
+          <td><input type="button" value="sir"
+          onClick="document.PirateForm.Output.value += 'matey ';">
+          <input type="button" value="madam"
+          onClick="document.PirateForm.Output.value += 'proud beauty ';">
+          <input type="button" value="officer"
+          onClick="document.PirateForm.Output.value += 'foul blaggart ';"></td>
+        </tr>
+        <tr class="row-decor2 row">
+          <td class="category-name">Questions</td>
+          <td><input type="button" value="where is"
+          onClick="document.PirateForm.Output.value += 'whar be ';">
+          <input type="button" value="can you help me find"
+          onClick="document.PirateForm.Output.value += 'know ye ';">
+          <input type="button" value="is that"
+          onClick="document.PirateForm.Output.value += 'be that ';"></td>
+        </tr>
+        <tr class="row-decor1 row">
+          <td class="category-name">Articles</td>
+          <td><input type="button" value="the"
+          onClick="document.PirateForm.Output.value += 'th\u0027 ';">
+          <input type="button" value="my"
+          onClick="document.PirateForm.Output.value += 'me ';">
+          <input type="button" value="your"
+          onClick="document.PirateForm.Output.value += 'yer ';"></td>
+        </tr>
+        <tr class="row-decor2 row">
+          <td class="category-name">Places</td>
+          <td><input type="button" value="restroom"
+          onClick="document.PirateForm.Output.value += 'head ';">
+          <input type="button" value="restraunt"
+          onClick="document.PirateForm.Output.value += 'galley ';">
+          <input type="button" value="hotel"
+          onClick="document.PirateForm.Output.value += 'fleabag inn ';"></td>
+        </tr>
+      </table>
+
+    <!-- Stop editing here. DO NOT change anything below this line -->
+      <br /><br />
+        <div align="center">
+        <textarea name="Output" rows=10 cols=50></textarea>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
